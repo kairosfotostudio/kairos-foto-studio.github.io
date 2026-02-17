@@ -8,3 +8,7 @@ theme = 'PaperMod'
     [params.homeInfoParams]
         Title = "Kairós"
         Content = "Museo privato di visioni digitali."
+
+[[params.socialIcons]]
+    name = "foto"
+    url = "images/kairos-start.png"
