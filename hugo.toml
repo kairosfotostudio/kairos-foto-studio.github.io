@@ -1,7 +1,7 @@
 baseURL = 'https://kairos-foto-studio.github.io/'
 languageCode = 'it-it'
 title = 'Kairós | Fotografia'
-theme = 'PaperMod'
+theme = ["github.com/adityatelange/hugo-Papermod"]
 
 [params]
     defaultTheme = 'dark'
