@@ -6,9 +6,20 @@ publishDir = "public"
 
 [params]
     defaultTheme = 'dark'
+    # Questo forza la visualizzazione delle immagini nelle anteprime
+    ShowFullTextContent = false
+    ShowPostNavLinks = true
+    ShowBreadCrumbs = true
+    ShowCodeCopyButtons = false
+    ShowWords = true
+    ShowReadingTime = true
+    ShowShareButtons = false
+    ShowToc = false
+
     [params.homeInfoParams]
         Title = "Kairós"
         Content = "Museo privato di visioni digitali."
 
     [params.cover]
-        linkfullImage = true
+        responsiveImages = false
+        linkFullImages = true
