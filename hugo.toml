@@ -1,7 +1,11 @@
 baseURL = 'https://kairos-foto-studio.github.io/'
 languageCode = 'it-it'
 title = 'Kairós | Fotografia'
-theme = ["github.com/adityatelange/hugo-PaperMod"] # Link diretto
+theme = "github.com/adityatelange/hugo-PaperMod"
+
+[module]
+  [[module.imports]]
+    path = "github.com/adityatelange/hugo-PaperMod"
 
 [params]
     defaultTheme = 'dark'
